@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {render} from 'react-dom';
+
 var Profiles = React.createClass ({
     getInitialState: function(){
         return {
@@ -23,6 +24,7 @@ var Profiles = React.createClass ({
         )
     }
 });
+
 var App = React.createClass ({
     render: function () {
         return (
@@ -33,6 +35,7 @@ var App = React.createClass ({
         )
     }
 });
+
 ReactDOM.render (
     <App />,
     document.getElementById ('root')
