@@ -11,7 +11,6 @@ var Profiles = React.createClass ({
         }
     },
     render: function () {
-        console.log(this.state);
         return (
             <section>
                 <article>
