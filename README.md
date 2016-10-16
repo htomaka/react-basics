@@ -1,5 +1,5 @@
-# react-webpack
-Basic Webpack configuration for react.js
+# react-basics
+Playground for learning react.js
 
 ## Install dependencies
 
@@ -7,8 +7,8 @@ Run `npm install`
 
 ## Build
 
-Run `npm run build`
+Run `npm run prod`
 
 ## Dev server
 
-Run `npm run start` to start the dev server then open http://localhost:3000
+Run `npm run dev` to start the dev server then open http://localhost:3000
