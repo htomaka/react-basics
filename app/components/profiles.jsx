@@ -26,14 +26,10 @@ class Profiles extends React.Component {
         this.addUser = this.addUser.bind(this);
     }
 
-    addUser (e) {
+    addUser (newProfile) {
+        console.log(newProfile);
         this.setState({
-            profiles : this.state.profiles.concat([{
-                name: 'John',
-                age: '54',
-                hobbies: ['hunting', 'photography'],
-                bio: 'enjoys photography anf hunting dears'
-            }])
+            profiles : this.state.profiles.concat([newProfile])
         });
     }
 

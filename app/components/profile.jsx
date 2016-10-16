@@ -8,6 +8,7 @@ class Profile extends React.Component {
         });
         return (
             <article>
+                <hr/>
                 <h3>{this.props.name}</h3>
                 <p>{this.props.name} is {this.props.age}
                     and {this.props.bio}</p>
