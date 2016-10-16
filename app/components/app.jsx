@@ -1,6 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
 import {Profiles} from './profiles.jsx';
+import {WrappedComp1, WrappedComp2} from './HOC.jsx'
+
+
+
 
 class App extends React.Component {
     render () {
@@ -8,6 +12,8 @@ class App extends React.Component {
             <div>
                 <h1>Profiles</h1>
                 <Profiles/>
+                <WrappedComp1 />
+                <WrappedComp2 />
             </div>
         )
     }
