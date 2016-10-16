@@ -1,6 +1,8 @@
 import React from 'react';
 import {render} from 'react-dom';
 
+
+
 // functional stateless component
 // use if no need for internal state
 let Profile = props => (
@@ -15,5 +17,12 @@ let Profile = props => (
         </ul>
     </article>
 );
+
+Profile.propTypes = {
+    name: React.PropTypes.string,
+    age: React.PropTypes.number,
+    hobbies: React.PropTypes.array,
+    bio: React.PropTypes.string
+};
 
 export {Profile};

@@ -19,14 +19,14 @@ server.route ({
             {
                 id: 0,
                 name: 'David',
-                age: '40',
+                age: 40,
                 hobbies: ['programming', 'drawing'],
                 bio: 'enjoys drawing and programming'
             },
             {
                 id: 1,
                 name: 'Sarah',
-                age: '23',
+                age: 23,
                 hobbies: ['swimming', 'shopping'],
                 bio: 'enjoys swimming and shopping'
             }

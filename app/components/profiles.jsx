@@ -36,10 +36,7 @@ class Profiles extends React.Component {
         let profiles = this.state.profiles.map (profile => {
             return (<Profile
                 key={profile.id}
-                name={profile.name}
-                age={profile.age}
-                hobbies={profile.hobbies}
-                bio={profile.bio}
+                {...profile}
             />)
         });
         return (
