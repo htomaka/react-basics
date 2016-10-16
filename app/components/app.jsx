@@ -12,6 +12,7 @@ class App extends React.Component {
             <div>
                 <h1>Profiles</h1>
                 <Profiles/>
+                <hr/>
                 <WrappedComp1 />
                 <WrappedComp2 />
             </div>

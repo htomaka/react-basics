@@ -17,12 +17,14 @@ server.route ({
     handler: function ( request, reply ) {
         var profiles = [
             {
+                id: 0,
                 name: 'David',
                 age: '40',
                 hobbies: ['programming', 'drawing'],
                 bio: 'enjoys drawing and programming'
             },
             {
+                id: 1,
                 name: 'Sarah',
                 age: '23',
                 hobbies: ['swimming', 'shopping'],
