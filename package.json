@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "webpack -p",
     "dev": "webpack-dev-server",
-    "api": "nodemon server.js"
+    "api": "node server.js"
   },
   "repository": {
     "type": "git",
