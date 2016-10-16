@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "webpack -p",
-    "dev": "webpack-dev-server",
+    "dev": "npm run api | webpack-dev-server",
     "api": "node server.js"
   },
   "repository": {
