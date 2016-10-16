@@ -7,23 +7,20 @@ class Profiles extends React.Component {
     constructor ( props ) {
         super (props);
         this.state = {
-            profiles: [
-                {
-                    name: 'David',
-                    age: '40',
-                    hobbies: ['programming', 'drawing'],
-                    bio: 'enjoys drawing and programming'
-                },
-                {
-                    name: 'Sarah',
-                    age: '23',
-                    hobbies: ['swimming', 'shopping'],
-                    bio: 'enjoys swimming and shopping'
-                },
-            ]
+            profiles: []
         };
 
         this.addUser = this.addUser.bind(this);
+    }
+
+    componentDidMount(){
+        fetch('http://localhost:8080/profiles')
+            .then(res => res.json())
+            .then(data => {
+                this.setState({
+                    profiles: data
+                })
+            })
     }
 
     addUser (newProfile) {
